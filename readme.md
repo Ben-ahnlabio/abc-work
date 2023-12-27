@@ -4,7 +4,7 @@
 
 ## 업무소개
 
-### BICSCan
+### BICScan
 블록체인 데이터 정보 조회 서비스
 
 #### 주요 기능
@@ -16,7 +16,7 @@
   - 외부 API 를 사용하여 조회
   - 사이트 주소의 유사성을 검사해서 피싱사이트 주소인지 확인
 
-- Report 공유
+- Report 공유 기능
 
 
 #### highlight 
@@ -47,10 +47,11 @@
   - 사용자 경험이 좋은 UI 를 쉽게 개발할 수 있음
 
 #### lowlight
-- AWS Amplify 의 스펙 미숙지
+- AWS Amplify 의 스펙을 사전에 숙지하지 못함
   - Amplify 의 backend 는 lambda 기반으로 동작함
   - NextJS 의 UI Streaming feature 를 지원하지 않음
   - UI Streaming 을 사용해서 구현한 page 가 정상적으로 작동하지 않아서 다시 개발함
+  - 특정 VPC 내에 속할 수 없음
 
 
 ## 주요계획
@@ -64,15 +65,14 @@
   - 사용자의 요청에 빠르게 제공할 수 있는 방안을 강구해야 함
 
 
-### Web Wallet
-
-### WaaS
+### Web Wallet / WaaS
+- Serverless 도입
+- E2E 테스트 도입
 
 
 ## 개인성장 목표 
 
 ### AWS Certified Developer – Associate 취득
-
 - AWS architecture 에 대한 모범사례에 대한 지식&이해 습득할 수 있음
 - AWS cloud 기반 애플리케이션의 개발,배포,디버깅 에 능숙해야 함
 
